@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/React-Redux-Firebase-App/static/css/main.ccf133fd.chunk.css",
+    "main.js": "/React-Redux-Firebase-App/static/js/main.bd104bc9.chunk.js",
+    "main.js.map": "/React-Redux-Firebase-App/static/js/main.bd104bc9.chunk.js.map",
+    "runtime-main.js": "/React-Redux-Firebase-App/static/js/runtime-main.6401e0b5.js",
+    "runtime-main.js.map": "/React-Redux-Firebase-App/static/js/runtime-main.6401e0b5.js.map",
+    "static/js/2.48c6f563.chunk.js": "/React-Redux-Firebase-App/static/js/2.48c6f563.chunk.js",
+    "static/js/2.48c6f563.chunk.js.map": "/React-Redux-Firebase-App/static/js/2.48c6f563.chunk.js.map",
+    "index.html": "/React-Redux-Firebase-App/index.html",
+    "precache-manifest.143705fe14c4808c5594fe9ff8935cc0.js": "/React-Redux-Firebase-App/precache-manifest.143705fe14c4808c5594fe9ff8935cc0.js",
+    "service-worker.js": "/React-Redux-Firebase-App/service-worker.js",
+    "static/css/main.ccf133fd.chunk.css.map": "/React-Redux-Firebase-App/static/css/main.ccf133fd.chunk.css.map",
+    "static/js/2.48c6f563.chunk.js.LICENSE.txt": "/React-Redux-Firebase-App/static/js/2.48c6f563.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6401e0b5.js",
+    "static/js/2.48c6f563.chunk.js",
+    "static/css/main.ccf133fd.chunk.css",
+    "static/js/main.bd104bc9.chunk.js"
+  ]
+}
