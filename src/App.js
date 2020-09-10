@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './App.css';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter, BrowserRouter, Switch, Route } from 'react-router-dom';
 import Navbar from './components/layout/Navbar';
 import DashBoard from './components/dashboard/DashBoard'
 import ProjectDetails from './components/projects/ProjectDetails'
@@ -10,7 +10,7 @@ import SignUp from './components/auth/SignUp'
 class App extends Component {
   render(){
     return (
-      <BrowserRouter>
+      <HashRouter>
         <div className="App">
           <Navbar/>
           <Switch>
@@ -22,7 +22,7 @@ class App extends Component {
             <Route exact path="/SignUp" component={SignUp} />
          </Switch>
         </div>
-      </BrowserRouter>
+      </HashRouter>
     );
   }
 }
