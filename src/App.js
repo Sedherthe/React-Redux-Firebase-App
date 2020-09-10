@@ -6,6 +6,7 @@ import DashBoard from './components/dashboard/DashBoard'
 import ProjectDetails from './components/projects/ProjectDetails'
 import SignIn from './components/auth/SignIn'
 import SignUp from './components/auth/SignUp'
+import CreateProject from './components/projects/CreateProject'
 
 class App extends Component {
   render(){
@@ -17,9 +18,10 @@ class App extends Component {
             <Route exact path="/">
               <DashBoard/>
             </Route>
-            <Route exact path="/project/:id" component={ProjectDetails}/>
-            <Route exact path="/SignIn" component={SignIn}/>
+            <Route exact path="/project/:id" component={ProjectDetails} />
+            <Route exact path="/SignIn" component={SignIn} />
             <Route exact path="/SignUp" component={SignUp} />
+            <Route exact path="/create" component={CreateProject} />
          </Switch>
         </div>
       </HashRouter>

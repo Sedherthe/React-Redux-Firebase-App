@@ -4,8 +4,8 @@ import { NavLink } from 'react-router-dom'
 function SignedOutLinks () {
     return (
       <ul id="nav-mobile" className="right">
-        <li><NavLink to="/">Sign In</NavLink>Sign In</li>
-        <li><NavLink to="/">Log In</NavLink></li>
+        <li><NavLink to="/SignIn">Log In</NavLink></li>
+        <li><NavLink to="/SignUp">Sign Up</NavLink></li>
       </ul>
     );
 }

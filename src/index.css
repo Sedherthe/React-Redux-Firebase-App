@@ -15,3 +15,7 @@ code {
 .navbar {
   width: 100%;
 }
+
+form h5, form button {
+  margin : 30px 0;
+}
