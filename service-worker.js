@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/React-Redux-Firebase-App/precache-manifest.081a578868a1798fa51cfa68a78049e7.js"
+  "/React-Redux-Firebase-App/precache-manifest.1e823858f8f75c6c67677c7a4069aa1c.js"
 );
 
 self.addEventListener('message', (event) => {
