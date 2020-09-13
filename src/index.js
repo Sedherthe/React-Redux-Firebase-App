@@ -16,16 +16,26 @@ const store = createStore(
   compose(
     applyMiddleware(thunk.withExtraArgument({ getFirebase, getFirestore })),
     reduxFirestore(fbConfig),
-    reactReduxFirebase(fbConfig)
+    reactReduxFirebase(fbConfig, {
+      useFirestoreForProfile: true,
+      userProfile: 'users',
+      attachAuthIsReady: true
+    })
   )
 );
 
-ReactDOM.render(
-  <React.StrictMode>
-    <Provider store={store}> <App /> </Provider>
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+store.firebaseAuthIsReady.then(()=>{
+  ReactDOM.render(
+    <React.StrictMode>
+      <Provider store={store}>
+        <App /> 
+      </Provider>
+    </React.StrictMode>,
+    document.getElementById('root')
+  );
+})
+
+
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
